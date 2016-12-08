@@ -7,7 +7,7 @@ It is a simple ROS package that I tried to get familiar with environment using t
 The main operation receives the camera image in real time and recognizes the number in the image
 
 ######
-# Environment
+## Environment
 laptop : AilenWare17 R2
 VGA : Geforce 980M (Nvidia graphic driver version 367)
 OS : Ubuntu 14.04
@@ -18,9 +18,9 @@ programming language : Python 2.7
 
 #####
 
-## Package configuration
+# Package configuration
 
-# Train Package
+## Train Package
  - Training Data set :
     MNIST data set (http://yann.lecun.com/exdb/mnist/) 
     
@@ -29,13 +29,13 @@ programming language : Python 2.7
     It is a package that stores model parameters after training using MNIST dataset.
 
  
-# Evaluation Package
+## Evaluation Package
  - Camera Package (VideoInput.pkg)
     The image is input from the notebook's webcam. After simple image processing, publish the image.
     
  - Evaluation Package (Eval.pkg)
     It is a package that evaluates input image and performs number recognition.
     
-##########################################################################################################
+#####
 
 Jong soon won.
