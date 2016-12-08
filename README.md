@@ -22,19 +22,19 @@ The main operation receives the camera image in real time and recognizes the num
 
 ## Train Package
  - Training Data set :
-    MNIST data set (http://yann.lecun.com/exdb/mnist/) 
+    -MNIST data set (http://yann.lecun.com/exdb/mnist/) 
     
  - Training Package (train.pkg) :
-    -- We modified the MNIST example provided by the tensor flow. 
-    -- It is a package that stores model parameters after training using MNIST dataset.
+    - We modified the MNIST example provided by the tensor flow. 
+    - It is a package that stores model parameters after training using MNIST dataset.
 
  
 ## Evaluation Package
  - Camera Package (VideoInput.pkg)
-    -- The image is input from the notebook's webcam. After simple image processing, publish the image.
+    - The image is input from the notebook's webcam. After simple image processing, publish the image.
     
  - Evaluation Package (Eval.pkg)
-    -- It is a package that evaluates input image and performs number recognition.
+    - It is a package that evaluates input image and performs number recognition.
     
 #####
 
