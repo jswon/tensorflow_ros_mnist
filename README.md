@@ -6,7 +6,7 @@ We used the handwritten digit recognition MNIST tutorial from tensorflow.
 It is a simple ROS package that I tried to get familiar with environment using tensorflow and ROS.
 The main operation receives the camera image in real time and recognizes the number in the image
 
-########################################################################################################
+######
 # Environment
 laptop : AilenWare17 R2
 VGA : Geforce 980M (Nvidia graphic driver version 367)
@@ -16,9 +16,9 @@ tensorflow version : r0.12 (https://www.tensorflow.org/)
 cuda : 8.0                 (https://developer.nvidia.com/cuda-gpus)
 programming language : Python 2.7
 
-#########################################################################################################
+#####
 
-# Package configuration
+## Package configuration
 
 # Train Package
  - Training Data set :
@@ -37,3 +37,5 @@ programming language : Python 2.7
     It is a package that evaluates input image and performs number recognition.
     
 ##########################################################################################################
+
+Jong soon won.
