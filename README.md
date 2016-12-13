@@ -14,28 +14,32 @@ The main operation receives the camera image in real time and recognizes the num
 - ROS version : Indigo
 - tensorflow version : r0.12 (https://www.tensorflow.org/)
 - cuda : 8.0                 (https://developer.nvidia.com/cuda-gpus)
+- cudnn : 5
 - programming language : Python 2.7
+- opencv2
 
 #####
 
-# Package configuration
-
+# Package configuration 
 ## Train Package
  - Training Data set :
     -MNIST data set (http://yann.lecun.com/exdb/mnist/) 
     
- - Training Package (train.pkg) :
+ - Training Package (train.pkg/train.py) :
     - We modified the MNIST example provided by the tensor flow. 
     - It is a package that stores model parameters after training using MNIST dataset.
 
  
 ## Evaluation Package
- - Camera Package (VideoInput.pkg)
+ - Camera Package (Cam_image.pkg/Cam_image.py)
     - The image is input from the notebook's webcam. After simple image processing, publish the image.
     
- - Evaluation Package (Eval.pkg)
+ - Evaluation Package (eval.pkg/eval.py)
     - It is a package that evaluates input image and performs number recognition.
     
+## Topic
+  - Image(name : "video")
 #####
+
 
 Jong soon won.
