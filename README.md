@@ -48,4 +48,4 @@ The main operation receives the camera image in real time and recognizes the num
   
 #####
 
-jong-soon won 
+jong-soon won, Li ding
